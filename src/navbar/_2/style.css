@@ -17,13 +17,14 @@ button {
 header {
   background-color: hsl(197, 85%, 61%);
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   padding: 1rem 1rem;
 }
 .logo {
   width: 3rem;
   cursor: pointer;
+  margin-right: auto;
 }
 .nav-links {
   list-style: none;
@@ -45,6 +46,7 @@ button {
   border-radius: 4rem;
   cursor: pointer;
   transition: all 0.3s ease 0s;
+  margin-left: 2rem;
 }
 button:hover {
   background-color: rgba(0, 136, 169, 0.6);

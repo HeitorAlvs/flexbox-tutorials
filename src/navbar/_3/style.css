@@ -17,13 +17,19 @@ button {
 header {
   background-color: hsl(197, 85%, 61%);
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   padding: 1rem 1rem;
 }
 .logo {
   width: 3rem;
   cursor: pointer;
+  order: 3;
+  margin-left: auto;
+}
+
+nav {
+  order: 1;
 }
 .nav-links {
   list-style: none;
@@ -32,19 +38,27 @@ header {
   display: inline-block;
   padding: 0 2rem;
 }
+.nav-links li:nth-child(1) {
+  padding: 0 2rem;
+}
 .nav-links li a {
   transition: all 0.3s ease 0s;
 }
 .nav-links li a:hover {
   color: #0088a9;
 }
+.cta {
+  order: 2;
+}
 button {
+  
   padding: 0.9rem 2.5rem;
   background-color: rgba(0, 136, 169, 1);
   border: none;
   border-radius: 4rem;
   cursor: pointer;
   transition: all 0.3s ease 0s;
+  margin-left: 2rem;
 }
 button:hover {
   background-color: rgba(0, 136, 169, 0.6);
