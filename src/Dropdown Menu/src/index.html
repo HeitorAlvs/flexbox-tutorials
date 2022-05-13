@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700"
+    />
+    <link rel="stylesheet" href="/src/styles/styles.css" />
+    <title>Dropdown Navigation Menu with Flexbox</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <ul class="nav-list">
+        <img
+          class="logo"
+          src="/src/assets/internet-explorer-seeklogo.com.svg"
+          alt="logo da página"
+        />
+        <!-- (li.nav-listitem)*3-->
+        <li class="nav-listitem">
+          About
+          <ul class="nav-listitemdrop">
+            <li>Our Team</li>
+            <li>Our Process</li>
+            <li>History</li>
+          </ul>
+        </li>
+        <li class="nav-listitem">
+          Work
+          <ul class="nav-listitemdrop">
+            <li>Portifolio</li>
+            <li>Showcase</li>
+          </ul>
+        </li>
+        <li class="nav-listitem">Contact</li>
+      </ul>
+    </nav>
+  </body>
+</html>
